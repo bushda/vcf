@@ -1,9 +1,24 @@
+
+
+.navbar-fixed-top {
+  top: -70px; /* you'll have to figure out the exact number here */
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: relative; /* this can also be static */
+}
+
+.navbar {
+  background-color: black !important;
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+
   background-size: cover;
   position: relative;
 }
